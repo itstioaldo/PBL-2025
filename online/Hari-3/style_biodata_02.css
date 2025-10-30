@@ -5,8 +5,27 @@ body {
     background-color: #f7faff;
     color: #222;
 }
+
+header {
+    background-color: #1e90ff;
+    color: yellow;
+    padding: 20px 0;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+.header-kiri{
+    display: block;
+    width: 50%;
+    background-color: #c51414;
+    color: rgb(123, 26, 132); 
+}
+.header-kanan{
+    display: block;
+    width: 50%;
+    background-color: #1dc514;
+    color: rgb(209, 255, 41); 
+}
 .profil_singkat {
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: center;
     background-color: white;
@@ -16,15 +35,9 @@ body {
     padding: 20px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
-header {
-    background-color: #1e90ff;
-    color: yellow;
-    text-align: center;
-    padding: 20px 0;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-    }
-.navigasi{
-  display: flex;
-  justify-content: center;
+
+.navigasi li{
+  display: inline;
+  align-content: center;
   gap: 5%;
 }
