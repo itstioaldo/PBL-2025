@@ -1,0 +1,32 @@
+.container {
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 31, 35);
+
+}
+
+header {
+    width: 100%;
+    height: auto;
+    background-color: orange;
+    display: flex;
+ justify-content: space-between;
+ position: fixed;
+}
+
+header div {
+    display: inline-block
+}
+
+header div ul li {
+    display: inline-block;
+    text-align: right;
+}
+
+.galeri div {
+    display: inline-block;
+}
+
+.menu div {
+    display: inline-block;
+}
